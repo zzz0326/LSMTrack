@@ -11,7 +11,7 @@ python -m pip install cython_bbox
 ```
 
 ## Dataset
-Download the VisDrone and UAVDT, and put them under <LSMTrack_HOME>/datasets in the following structure:
+Download the [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) and [UAVDT](https://sites.google.com/view/grli-uavdt/%E9%A6%96%E9%A1%B5), and put them under <LSMTrack_HOME>/datasets in the following structure:
 ```
 datasets   
    |——————VisDrone-MOT
