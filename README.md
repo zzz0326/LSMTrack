@@ -11,7 +11,7 @@ python -m pip install cython_bbox
 ```
 
 ## Dataset
-Download the [VisDrone](https://github.com/VisDrone/VisDrone-Dataset) and [UAVDT](https://sites.google.com/view/grli-uavdt/%E9%A6%96%E9%A1%B5), and put them under <LSMTrack_HOME>/datasets in the following structure:
+Download the [VisDrone-MOT](https://github.com/VisDrone/VisDrone-Dataset) and [UAVDT](https://sites.google.com/view/grli-uavdt/%E9%A6%96%E9%A1%B5), and put them under <LSMTrack_HOME>/datasets in the following structure:
 ```
 datasets   
    |——————VisDrone-MOT
@@ -22,3 +22,13 @@ datasets
             └——————uavdt-test
             └——————uavdt-train
 ```
+
+## Pre-trained weights
+### Detector weight
+The detector [weight](https://drive.google.com/drive/folders/1MTtu_gbvK7akKjr3cLNlX28L80fcSFQV) of VisDrone-MOT comes from [u2mot](https://github.com/alibaba/u2mot).
+The 
+### Tracker weight
+| Benchmark |  Weights |
+|:---------:|:--------:|
+|  VisDrone |  |
+|   UAVDT   |  |
