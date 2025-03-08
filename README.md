@@ -27,7 +27,7 @@ DataPath
 ### Detector weight
 The detector [weight](https://drive.google.com/drive/folders/1MTtu_gbvK7akKjr3cLNlX28L80fcSFQV) of VisDrone-MOT comes from [u2mot](https://github.com/alibaba/u2mot).
 
-The weight corresponding to UAVDT is obtained from this [weight]([https://drive.google.com/drive/folders/1MTtu_gbvK7akKjr3cLNlX28L80fcSFQV](https://drive.google.com/file/d/19Uvi5d3qSkxmixIXPOcLAm-dh_2YjWo_/view?usp=sharing)).
+The weight corresponding to UAVDT is obtained from this [link](https://drive.google.com/file/d/19Uvi5d3qSkxmixIXPOcLAm-dh_2YjWo_/view?usp=sharing).
 ### Tracker weight
 | Benchmark |  Weights |
 |:---------:|:--------:|
