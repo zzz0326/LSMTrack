@@ -34,6 +34,9 @@ The weight corresponding to UAVDT is obtained from this [link](https://drive.goo
 |  VisDrone | Released soon |
 |   UAVDT   | Released soon |
 
+## Code
+All codes related to training, testing, and evaluation will be released soon.
+
 ## Training
 * **Train on VisDrone**
 ```
@@ -53,6 +56,15 @@ python tools/track_VisDrone.py <DataPath>/VisDrone2019-MOT-test-dev/sequences --
 * **Test on UAVDT**
 ```
 python tools/track_UAVDT.py <DataPath>/uavdt_test/sequences --benchmark UAVDT -f exps/example/LSMTrack/yolox_x_u2mot_uavdt.py -c <UAVDT-Detetcor-Weight> --device 1 --fp16 --fuse --cmc-method file --cmc-file-dir UAVDT/test-dev
+```
+## Evaluation
+* **Evaluate on VisDrone**
+```
+python tools/utils/eval.py <DataPath>/VisDrone2019-MOT-test-dev/annotations --benchmark VisDrone
+```
+* **Evaluate on UAVDT**
+```
+python tools/utils/eval.py <DataPath>/uavdt_test/annotations --benchmark UAVDT
 ```
 ## Acknowledgement
 A large part of the code is borrowed from [u2mot](https://github.com/alibaba/u2mot). Many thanks for their wonderful work.
