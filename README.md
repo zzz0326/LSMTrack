@@ -1,6 +1,6 @@
 # Long-Short Match for Lost Control in UAV Multi-Object Tracking
 
-## Environment:
+## Environment
 ```
 conda create -n LSMTrack python=3.8 -y && conda activate LSMTrack
 python -m pip install -r requirements.txt
