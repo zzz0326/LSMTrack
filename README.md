@@ -34,6 +34,17 @@ The weight corresponding to UAVDT is obtained from this [link](https://drive.goo
 |  VisDrone | Released soon |
 |   UAVDT   | Released soon |
 
+## Training
+* **Train on VisDrone**
+```
+python Tracker_train/step_mamba_tracker.py <DataPath>/VisDrone2019-MOT-train/annotations --step 1 --benchmark VisDrone
+python Tracker_train/step_mamba_tracker.py <DataPath>/VisDrone2019-MOT-train/annotations --step 2 --benchmark VisDrone
+```
+* **Train on UAVDT**
+```
+python Tracker_train/step_mamba_tracker.py <DataPath>/uavdt_train/annotations --step 1 --benchmark UAVDT
+python Tracker_train/step_mamba_tracker.py <DataPath>/uavdt_train/annotations --step 2 --benchmark UAVDT
+```
 ## Tracking
 * **Test on VisDrone**
 ```
