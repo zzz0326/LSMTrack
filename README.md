@@ -35,7 +35,7 @@ The weight corresponding to UAVDT is obtained from this [link](https://drive.goo
 |   UAVDT   | Released soon |
 
 ## Code
-All codes related to training, testing, and evaluation will be released soon.
+**All codes related to training, testing, and evaluation will be released soon.**
 
 ## Training
 * **Train on VisDrone**
